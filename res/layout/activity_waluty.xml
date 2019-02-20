@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/podst"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/oEUR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CCFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/oUSD"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CCFFFF" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/wartosc"
+        android:inputType="number"
+        android:textColor="#CCFFFF"
+        android:textColorHint="#EEFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:text="@string/oGBP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CCFFFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:onClick="wpis"
+        android:text="@string/przelicz" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="@string/zl"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#CCFFFF" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="5"
+        android:hint="@string/kursEUR"
+        android:inputType="number"
+        android:textColor="#CCFFFF"
+        android:textColorHint="#CCFFFF" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:ems="5"
+        android:hint="@string/kursUSD"
+        android:inputType="number"
+        android:textColor="#CCFFFF"
+        android:textColorHint="#CCFFFF" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:ems="5"
+        android:hint="@string/kursGBP"
+        android:inputType="number"
+        android:textColor="#CCFFFF"
+        android:textColorHint="#CCFFFF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="@string/PodajKurs"
+        android:textColor="#CCFFFF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/editText2"
+        android:text="@string/EUR"
+        android:textColor="#CCFFFF" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/editText3"
+        android:text="@string/USD"
+        android:textColor="#CCFFFF" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/editText4"
+        android:text="@string/GBP"
+        android:textColor="#CCFFFF" />
+
+</RelativeLayout>

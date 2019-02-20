@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Konwerter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_miary">Miary</string>
+    <string name="title_activity_waluty">Waluty</string>
+    <string name="konwertMiary">Konwertuj miary długości</string>
+    <string name="konwertWaluty">Konwertuj waluty</string>
+    <string name="wynik">wynik</string>
+    <string name="wartosc">podaj wartość</string>
+    <string name="oEUR">0.0 EUR</string>
+    <string name="oUSD">0.0 USD</string>
+    <string name="oGBP">0.0 GBP</string>
+    <string name="EUR">EUR</string>
+    <string name="USD">USD</string>
+    <string name="GBP">GBP</string>
+    <string name="kursEUR">kurs EUR</string>
+    <string name="kursUSD">kurs USD</string>
+    <string name="kursGBP">kurs GBP</string>
+    <string name="zl">zł</string>
+    <string name="przelicz">przelicz</string>
+    <string name="PodajKurs">Podaj kurs:</string>
+
+    <string-array name="miary">
+        <item>cm</item>
+        <item>cal</item>
+        <item>km</item>
+        <item>m</item>
+    </string-array>
+
+</resources>
